@@ -1,0 +1,13 @@
+{
+  "name": "ml-base64-node",
+  "version": "1.0.0",
+  "description": "Exemplo de regressão Base64 -> Senha usando TensorFlow.js Node (modelo one-hot)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "train": "node train.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.3.0"
+  }
+}

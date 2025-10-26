@@ -1,0 +1,8 @@
+# Ignorar pasta de dependências
+node_modules/
+
+# Arquivos de sistema do Mac
+.DS_Store
+
+# Arquivos de ambiente
+.env
