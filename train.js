@@ -1,8 +1,8 @@
 const tf = require('@tensorflow/tfjs-node');
 const fs = require('fs');
 const path = require('path');
-const { SkLearn } = require('scikitjs'); // Importa ScikitJS
-require('@tensorflow/tfjs-node'); // Backend necessário para ScikitJS
+const { SkLearn } = require('scikitjs'); 
+require('@tensorflow/tfjs-node');
 
 const {
   IN_LEN,
