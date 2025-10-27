@@ -46,7 +46,7 @@ async function buildAndTrainModel(datasetX, datasetY) {
   });
 
   // Salvar modelo
-  const savePath = `file://${MODEL_DIR}/`; // importante a barra final
+  const savePath = `file://${MODEL_DIR}/`; 
   await model.save(savePath);
   console.log(" Modelo salvo em:", MODEL_DIR);
 
@@ -86,5 +86,5 @@ async function runScikitExample() {
 
 (async () => {
   await runTraining();
-  await runScikitExample(); // roda o exemplo simples com ScikitJS
+  await runScikitExample();
 })();
